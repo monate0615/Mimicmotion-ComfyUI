@@ -19,4 +19,5 @@ venv/
 *.log
 web_custom_versions/
 .DS_Store
-custom_nodes/*/models/
+custom_nodes/*/models/*
+!custom_nodes/ComfyUI-MimicMotionWrapper/models/mimic_motion_pose_net.safetensors
